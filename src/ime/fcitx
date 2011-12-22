@@ -1,0 +1,6 @@
+NAME=小企鹅输入法
+XIM=fcitx
+PROGRAM=/usr/bin/fcitx
+ARG=
+IMMGTK=
+IMMQT=

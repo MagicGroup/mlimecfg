@@ -1,0 +1,199 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-29 15:07+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/mlimecfg_cl.cpp:105 src/mlimecfg_cl.cpp:110 src/mlimecfg_cl.cpp:231
+msgid "Error"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:105
+msgid "no XMODIFIERS"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:110
+msgid "no Command"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:132 src/mlimecfg_cl.cpp:195 src/mlimecfg_cl.cpp:239
+#: src/mlimecfg_cl.cpp:288 src/mlimecfg_cl.cpp:304
+msgid "Error!"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:132
+msgid "Error while writing config file, please check"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:132
+msgid ""
+"\n"
+"If you have permission to access the file!"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:164
+msgid "Browse File"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:195
+msgid "Error while reading config file"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:195
+msgid " Failed!"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:231
+msgid "Error while reading /etc/X11/xinit/xinitrc.d/xinput.sh. Failed!"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:239
+msgid ""
+"Error while writing config file /etc/X11/xinit/xinitrc.d/xinput.sh.\n"
+"Pleae check if you have permission to access the file!"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:288
+msgid "I can't read file "
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:339
+msgid "Default IME of current user : <b>"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:344
+msgid "Default IME of current user : <b>Nothing</b>"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:373
+msgid "Set as default"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:376
+msgid "Clean"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:379
+msgid "Add"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:382
+msgid "Remove"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:401
+msgid "Browse..."
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:404
+msgid "IME name:"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:407
+msgid "XMODIFIERS parameter(<font color=\"#ff0000\">@im=</font>):"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:410
+msgid "Command:"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:413
+msgid "IME parameter(if have):"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:417
+msgid "GTK_IM_MODULE(optional):"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:420
+msgid "QT_IM_MODULE(optional):"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:423
+msgid "&IME Configure Table"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:431
+msgid "Rebuild"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:434
+msgid "Save"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:437
+msgid ""
+"<font color=\"#ff0000\"><b>Warning:</b>If you want to edit it yourself,\n"
+"please keep it correct!</font>"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:440
+msgid "&xinput Editor"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:446
+msgid "<font color=\"#aa0000\"><b>IME installed in  your system:</b></font>"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:468
+msgid ""
+"<font color=\"#ff0000\"><b>Tip:</b></font>Only root can do something for "
+"system setting.\n"
+"Other users can only change default ime."
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:471
+msgid "OK"
+msgstr ""
+
+#: src/mlimecfg_cl.cpp:476
+msgid "Cancel"
+msgstr ""
+
+#: src/mlimecfg.cpp:25
+msgid "Magic Linux IME Configure Module"
+msgstr ""
+
+#: src/mlimecfg.cpp:26
+msgid "This module help you to manage your input methods"
+msgstr ""
+
+#: src/mlimecfg.cpp:28
+msgid "(c) 2005-2009 Magic Group"
+msgstr ""
+
+#: src/mlimecfg.cpp:30
+msgid "KanKer"
+msgstr ""
+
+#: src/mlimecfg.cpp:30
+msgid "IME configure scripts"
+msgstr ""
+
+#: src/mlimecfg.cpp:31
+msgid "lovewilliam"
+msgstr ""
+
+#: src/mlimecfg.cpp:31
+msgid "kcm module"
+msgstr ""
+
+#: src/mlimecfg.cpp:32
+msgid "Ni Hui"
+msgstr ""
+
+#: src/mlimecfg.cpp:32
+msgid "Port to cmake, Port to Qt4/KDE4, Port to new kpluginfactory"
+msgstr ""

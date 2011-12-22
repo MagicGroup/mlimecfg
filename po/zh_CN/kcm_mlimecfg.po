@@ -1,0 +1,208 @@
+# translation of kcm_mlimecfg.po to 简体中文
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Ni Hui <shuizhuyuanluo@126.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: kcm_mlimecfg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-29 15:07+0800\n"
+"PO-Revision-Date: 2009-07-29 15:14+0800\n"
+"Last-Translator: Ni Hui <shuizhuyuanluo@126.com>\n"
+"Language-Team: 简体中文 <kde-china@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: src/mlimecfg_cl.cpp:105 src/mlimecfg_cl.cpp:110 src/mlimecfg_cl.cpp:231
+msgid "Error"
+msgstr "错误"
+
+#: src/mlimecfg_cl.cpp:105
+msgid "no XMODIFIERS"
+msgstr "没有 XMODIFIERS"
+
+#: src/mlimecfg_cl.cpp:110
+msgid "no Command"
+msgstr "没有 Command"
+
+#: src/mlimecfg_cl.cpp:132 src/mlimecfg_cl.cpp:195 src/mlimecfg_cl.cpp:239
+#: src/mlimecfg_cl.cpp:288 src/mlimecfg_cl.cpp:304
+msgid "Error!"
+msgstr "错误！"
+
+#: src/mlimecfg_cl.cpp:132
+msgid "Error while writing config file, please check"
+msgstr "写入配置文件时出错，请检查"
+
+#: src/mlimecfg_cl.cpp:132
+msgid ""
+"\n"
+"If you have permission to access the file!"
+msgstr ""
+"\n"
+"您是否拥有访问该文件的权限！"
+
+#: src/mlimecfg_cl.cpp:164
+msgid "Browse File"
+msgstr "浏览文件"
+
+#: src/mlimecfg_cl.cpp:195
+msgid "Error while reading config file"
+msgstr "读取配置文件时出错"
+
+#: src/mlimecfg_cl.cpp:195
+msgid " Failed!"
+msgstr " 失败！"
+
+#: src/mlimecfg_cl.cpp:231
+msgid "Error while reading /etc/X11/xinit/xinitrc.d/xinput.sh. Failed!"
+msgstr "读取 /etc/X11/xinit/xinitrc.d/xinput.sh 时出错。失败！"
+
+#: src/mlimecfg_cl.cpp:239
+msgid ""
+"Error while writing config file /etc/X11/xinit/xinitrc.d/xinput.sh.\n"
+"Pleae check if you have permission to access the file!"
+msgstr ""
+"写入配置文件 /etc/X11/xinit/xinitrc.d/xinput.sh 出错。\n"
+"请检查您是否拥有访问该文件的权限！"
+
+#: src/mlimecfg_cl.cpp:288
+msgid "I can't read file "
+msgstr "我无法读取文件"
+
+#: src/mlimecfg_cl.cpp:339
+msgid "Default IME of current user : <b>"
+msgstr "当前用户的默认输入法：<b>"
+
+#: src/mlimecfg_cl.cpp:344
+msgid "Default IME of current user : <b>Nothing</b>"
+msgstr "当前用户的默认输入法：<b>无</b>"
+
+#: src/mlimecfg_cl.cpp:373
+msgid "Set as default"
+msgstr "设为默认"
+
+#: src/mlimecfg_cl.cpp:376
+msgid "Clean"
+msgstr "清除"
+
+#: src/mlimecfg_cl.cpp:379
+msgid "Add"
+msgstr "添加"
+
+#: src/mlimecfg_cl.cpp:382
+msgid "Remove"
+msgstr "删除"
+
+#: src/mlimecfg_cl.cpp:401
+msgid "Browse..."
+msgstr "浏览..."
+
+#: src/mlimecfg_cl.cpp:404
+msgid "IME name:"
+msgstr "输入法名称："
+
+#: src/mlimecfg_cl.cpp:407
+msgid "XMODIFIERS parameter(<font color=\"#ff0000\">@im=</font>):"
+msgstr "XMODIFIERS 参数(<font color=\"#ff0000\">@im=</font>)："
+
+#: src/mlimecfg_cl.cpp:410
+msgid "Command:"
+msgstr "命令："
+
+#: src/mlimecfg_cl.cpp:413
+msgid "IME parameter(if have):"
+msgstr "IME 参数(如果有)："
+
+#: src/mlimecfg_cl.cpp:417
+msgid "GTK_IM_MODULE(optional):"
+msgstr "GTK_IM_MODULE(可选)："
+
+#: src/mlimecfg_cl.cpp:420
+msgid "QT_IM_MODULE(optional):"
+msgstr "QT_IM_MODULE(可选)："
+
+#: src/mlimecfg_cl.cpp:423
+msgid "&IME Configure Table"
+msgstr "输入法配置表单(&I)"
+
+#: src/mlimecfg_cl.cpp:431
+msgid "Rebuild"
+msgstr "重建"
+
+#: src/mlimecfg_cl.cpp:434
+msgid "Save"
+msgstr "保存"
+
+#: src/mlimecfg_cl.cpp:437
+msgid ""
+"<font color=\"#ff0000\"><b>Warning:</b>If you want to edit it yourself,\n"
+"please keep it correct!</font>"
+msgstr ""
+"<font color=\"#ff0000\"><b>警告：</b>如果您想要自己编辑，\n"
+"请确保其是正确的！</font>"
+
+#: src/mlimecfg_cl.cpp:440
+msgid "&xinput Editor"
+msgstr "xinput 编辑器(&X)"
+
+#: src/mlimecfg_cl.cpp:446
+msgid "<font color=\"#aa0000\"><b>IME installed in  your system:</b></font>"
+msgstr "<font color=\"#aa0000\"><b>您系统中安装的输入法：</b></font>"
+
+#: src/mlimecfg_cl.cpp:468
+msgid ""
+"<font color=\"#ff0000\"><b>Tip:</b></font>Only root can do something for "
+"system setting.\n"
+"Other users can only change default ime."
+msgstr ""
+"<font color=\"#ff0000\"><b>提示：</b></font>只有 root 用户可以修改系统设置。\n"
+"其它用户只能更改默认输入法。"
+
+#: src/mlimecfg_cl.cpp:471
+msgid "OK"
+msgstr "确定"
+
+#: src/mlimecfg_cl.cpp:476
+msgid "Cancel"
+msgstr "取消"
+
+#: src/mlimecfg.cpp:25
+msgid "Magic Linux IME Configure Module"
+msgstr "Magic Linux 输入法配置模块"
+
+#: src/mlimecfg.cpp:26
+msgid "This module help you to manage your input methods"
+msgstr "这个模块能帮您管理您的输入法"
+
+#: src/mlimecfg.cpp:28
+msgid "(c) 2005-2009 Magic Group"
+msgstr "(c) 2005-2009 Magic 开发组"
+
+#: src/mlimecfg.cpp:30
+msgid "KanKer"
+msgstr "KanKer"
+
+#: src/mlimecfg.cpp:30
+msgid "IME configure scripts"
+msgstr "输入法配置脚本"
+
+#: src/mlimecfg.cpp:31
+msgid "lovewilliam"
+msgstr "lovewilliam"
+
+#: src/mlimecfg.cpp:31
+msgid "kcm module"
+msgstr "kcm 模块"
+
+#: src/mlimecfg.cpp:32
+msgid "Ni Hui"
+msgstr "Ni Hui"
+
+#: src/mlimecfg.cpp:32
+msgid "Port to cmake, Port to Qt4/KDE4, Port to new kpluginfactory"
+msgstr "移植到 cmake、移植到 Qt4/KDE4，移植到新 kpluginfactory"
+

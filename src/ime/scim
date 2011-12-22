@@ -1,0 +1,6 @@
+NAME=智能通用输入平台scim
+XIM=SCIM
+PROGRAM=/usr/bin/scim
+ARG=-d
+IMMGTK=xim
+IMMQT=scim
