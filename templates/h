@@ -17,39 +17,3 @@
  *   Free Software Foundation, Inc.,                                       *
  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
  ***************************************************************************/
-
-
-#ifndef _MLIMECFG_H_
-#define _MLIMECFG_H_
-
-#include <tdecmodule.h>
-#include <tdeaboutdata.h>
-#include "mlimecfg_cl.h"
-
-class mlimecfg: public TDECModule
-{
-    Q_OBJECT
-
-public:
-    mlimecfg( TQWidget *parent=0, const char *name=0, const TQStringList& = TQStringList() );
-    ~mlimecfg();
-
-    virtual void load();
-    virtual void save();
-    virtual void defaults();
-    virtual int buttons();
-    virtual TQString quickHelp() const;
-    virtual const TDEAboutData *aboutData()const
-    { return myAboutData; };
-
-public slots:
-    void configChanged();
-
-private:
-
-	mlimecfg_cl *micl;
-	TDEAboutData *myAboutData;
-
-};
-
-#endif

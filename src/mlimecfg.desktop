@@ -1,18 +1,82 @@
 [Desktop Entry]
-Exec=kcmshell4 mlimecfg
-Icon=preferences-desktop-keyboard
-Type=Service
-X-KDE-ServiceTypes=KCModule,KCModuleInit
+Encoding=UTF-8
+Exec=tdecmshell mlimecfg
+Icon=input-keyboard
+Type=Application
 
-X-KDE-Library=kcm_mlimecfg
-X-KDE-ParentApp=kcontrol
+X-TDE-ModuleType=Library
+X-TDE-Library=mlimecfg
+X-TDE-FactoryName=mlimecfg
+X-TDE-HasReadOnlyMode=false
+X-TDE-ParentApp=kcontrol
 
-X-KDE-System-Settings-Parent-Category=advanced-user-settings
 
-Name=Configure Input Methods
-Name[zh_CN]=输入法配置
-Name[zh_TW]=输入法设定
+
+[Desktop Entry]
+Encoding=UTF-8
 Comment=Configure Input Methods
+Comment[br]=mlimecfg - ur mollad kcontrol
+Comment[ca]=mlimecfg - un mòdul per a kcontrol
+Comment[da]=mlimecfg - et kcontrol-modul
+Comment[de]=mlimecfg - ein KControl-Modul
+Comment[el]=mlimecfg - ένα άρθρωμα kcontrol
+Comment[es]=mlimecfg - un módulo de kcontrol
+Comment[et]=mlimecfg - KDE juhtimiskeskuse moodul
+Comment[eu]=mlimecfg - kcontrol modulu bat
+Comment[fa]=mlimecfg - یک پیمانۀ kcontrol
+Comment[fr]=mlimecfg - un module du centre de configuration de KDE
+Comment[ga]=mlimecfg - modúl kcontrol
+Comment[gl]=mlimecfg - un módulo de kcontrol
+Comment[hu]=mlimecfg - beállítómodul
+Comment[it]=mlimecfg - un modulo per kcontrol
+Comment[ja]=mlimecfg kcontrol モジュール
+Comment[nds]=mlimecfg - en KControl-Moduul
+Comment[nl]=mlimecfg - een kcontrol module
+Comment[pl]=Moduł Centrum Sterowania dla mlimecfg
+Comment[pt]=mlimecfg - um módulo do kcontrol
+Comment[pt_BR]=mlimecfg - um módulo do kcontrol
+Comment[ru]=mlimecfg - модуль kcontrol
+Comment[sk]=mlimecfg - a kcontrol modul
+Comment[sl]=mlimecfg - modul za kcontrol
+Comment[sr]=mlimecfg — модул за kcontrol
+Comment[sr@Latn]=mlimecfg — modul za kcontrol
+Comment[sv]=mlimecfg - en modul i Inställningscentralen
+Comment[ta]=mlimecfg - ஒரு கேகன்ட்ரோல் கூறு
+Comment[tg]=mlimecfg - модули kcontrol
+Comment[tr]=mlimecfg - bir kcontrol birimi
 Comment[zh_CN]=输入法配置
 Comment[zh_TW]=输入法设定
-X-KDE-Keywords=Input Methods Configure Module
+Keywords=mlimecfg;mlimecfg
+Name=Configure Input Methods
+Name[br]=An arloadig mlimecfg
+Name[ca]=L'applet mlimecfg
+Name[da]=mlimecfg-appletten
+Name[de]=Das Miniprogramm mlimecfg
+Name[el]=Το εφαρμογίδιο mlimecfg
+Name[es]=Applet mlimecfg
+Name[et]=mlimecfg aplett
+Name[eu]=mlimecfg applet-a
+Name[fa]=برنامک mlimecfg
+Name[fr]=L'applet mlimecfg
+Name[ga]=An Feidhmchláirín mlimecfg
+Name[gl]=Applet mlimecfg
+Name[hu]=mlimecfg kisalkalmazás
+Name[it]=L'applet mlimecfg
+Name[ja]=mlimecfg アプレット
+Name[nds]=Dat Lüttprogramm mlimecfg
+Name[nl]=De mlimecfg-applet
+Name[pl]=Aplet mlimecfg
+Name[pt]='Applet' mlimecfg
+Name[pt_BR]=O Mini-Aplicativo mlimecfg
+Name[ru]=Аплет mlimecfg
+Name[sk]=mlimecfg applet
+Name[sl]=Vstavek za mlimecfg
+Name[sr]=mlimecfg аплет
+Name[sr@Latn]=mlimecfg aplet
+Name[sv]=Miniprogram mlimecfg
+Name[tr]=mlimecfg Küçük Uygulaması
+Name[zh_CN]=输入法配置
+Name[zh_TW]=输入法设定
+
+
+Categories=Qt;TDE;X-TDE-settings-components;
